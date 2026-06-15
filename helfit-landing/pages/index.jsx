@@ -428,15 +428,20 @@ function MobileApp() {
                   <p className="font-bold text-sm leading-none">Web Uygulaması</p>
                 </div>
               </a>
-              {['App Store','Google Play'].map(store=>(
-                <div key={store} className="flex items-center gap-3 bg-gray-200 text-gray-500 px-5 py-3.5 rounded-2xl cursor-not-allowed select-none">
-                  <Icon name="mobile" size={22}/>
-                  <div className="text-left">
-                    <p className="text-xs leading-none mb-0.5">çok yakında</p>
-                    <p className="font-bold text-sm leading-none">{store}</p>
-                  </div>
+              <a href="https://play.google.com/store/apps/details?id=com.helfit.app&hl=tr" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 bg-gray-900 text-white px-5 py-3.5 rounded-2xl hover:bg-gray-800 transition-colors duration-200">
+                <Icon name="mobile" size={22}/>
+                <div className="text-left">
+                  <p className="text-xs text-gray-400 leading-none mb-0.5">hemen indirin</p>
+                  <p className="font-bold text-sm leading-none">Google Play</p>
                 </div>
-              ))}
+              </a>
+              <div className="flex items-center gap-3 bg-gray-200 text-gray-500 px-5 py-3.5 rounded-2xl cursor-not-allowed select-none">
+                <Icon name="mobile" size={22}/>
+                <div className="text-left">
+                  <p className="text-xs leading-none mb-0.5">çok yakında</p>
+                  <p className="font-bold text-sm leading-none">App Store</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
