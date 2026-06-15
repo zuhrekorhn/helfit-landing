@@ -43,13 +43,13 @@ export default function Navbar() {
         {/* Desktop CTAs */}
         <div className="hidden xl:flex items-center gap-3">
           <a
-            href="https://app.helfit.com/login"
+            href="https://helfit-64a9c.web.app/#/login"
             className="text-sm font-semibold text-gray-600 hover:text-gray-900 px-4 py-2 rounded-xl transition-colors duration-200"
           >
             Giriş Yap
           </a>
           <a
-            href="https://app.helfit.com"
+            href="https://helfit-64a9c.web.app"
             className="text-sm font-semibold text-white px-5 py-2.5 rounded-xl bg-brand hover:bg-brandhover transition-all duration-300 hover:-translate-y-0.5 shadow-sm hover:shadow-md"
           >
             Ücretsiz Başla →
@@ -91,10 +91,10 @@ export default function Navbar() {
             ))}
           </ul>
           <div className="space-y-2 border-t border-gray-100 pt-4">
-            <a href="https://app.helfit.com/login" className="block text-center py-2.5 text-sm font-semibold text-gray-700 border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors">
+            <a href="https://helfit-64a9c.web.app/#/login" className="block text-center py-2.5 text-sm font-semibold text-gray-700 border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors">
               Giriş Yap
             </a>
-            <a href="https://app.helfit.com" className="block text-center py-2.5 text-sm font-semibold text-white rounded-xl bg-brand hover:bg-brandhover transition-colors">
+            <a href="https://helfit-64a9c.web.app" className="block text-center py-2.5 text-sm font-semibold text-white rounded-xl bg-brand hover:bg-brandhover transition-colors">
               Ücretsiz Başla →
             </a>
           </div>

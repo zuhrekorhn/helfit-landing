@@ -8,7 +8,7 @@ export default function Footer() {
       ['#ai-koc', 'AI Koç'],
       ['#mobil', 'Mobil Uygulama'],
       ['#fiyat', 'Fiyatlandırma'],
-      ['https://app.helfit.com', 'Kayıt Ol'],
+      ['https://helfit-64a9c.web.app', 'Kayıt Ol'],
     ]],
     ['Yasal', [
       ['#', 'Gizlilik Politikası'],

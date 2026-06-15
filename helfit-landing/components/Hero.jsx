@@ -52,7 +52,7 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <a
-                href="https://app.helfit.com"
+                href="https://helfit-64a9c.web.app"
                 className="group inline-flex items-center justify-center gap-2 text-white font-bold py-4 px-8 rounded-2xl bg-brand hover:bg-brandhover transition-all duration-300 hover:-translate-y-1 shadow-lg hover:shadow-xl text-base"
               >
                 Ücretsiz Başla
