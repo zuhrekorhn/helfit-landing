@@ -7,7 +7,7 @@ import Icon from '../components/Icon'
 import useReveal from '../components/useReveal'
 
 const BRAND = '#95B82D'
-const APP = 'https://app.helfit.com'
+const APP = 'https://helfit-64a9c.web.app'
 
 // ── CheckItem helper ──────────────────────────────────────────────────────────
 function Check({ text, light }) {
