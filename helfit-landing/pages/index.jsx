@@ -7,7 +7,7 @@ import Icon from '../components/Icon'
 import useReveal from '../components/useReveal'
 
 const BRAND = '#95B82D'
-const APP = 'https://helfit-64a9c.web.app'
+const APP = 'https://helfit-prod.web.app'
 
 // ── CheckItem helper ──────────────────────────────────────────────────────────
 function Check({ text, light }) {
@@ -421,7 +421,7 @@ function MobileApp() {
               ))}
             </ul>
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-              <a href="https://helfit-64a9c.web.app" className="flex items-center gap-3 bg-gray-900 text-white px-5 py-3.5 rounded-2xl hover:bg-gray-800 transition-colors duration-200">
+              <a href="https://helfit-prod.web.app" className="flex items-center gap-3 bg-gray-900 text-white px-5 py-3.5 rounded-2xl hover:bg-gray-800 transition-colors duration-200">
                 <Icon name="mobile" size={22}/>
                 <div className="text-left">
                   <p className="text-xs text-gray-400 leading-none mb-0.5">hemen kullanın</p>
