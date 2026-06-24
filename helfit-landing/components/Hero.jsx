@@ -46,7 +46,7 @@ export default function Hero() {
               <span className="flex items-center text-gray-300 text-xs">+</span>
               <div className="flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-xl text-purple-600" style={{ background: '#8B5CF612' }}>
                 <Icon name="brain" size={13} color="#8B5CF6" />
-                AI Koç (7/24)
+                Yapay Zeka Koç (7/24)
               </div>
             </div>
 
@@ -182,7 +182,7 @@ export default function Hero() {
                         <div className="w-6 h-6 rounded-lg flex items-center justify-center text-white font-extrabold text-[9px]" style={{ background: BRAND }}>M</div>
                         <div>
                           <p className="text-[9px] font-bold text-white">Melis</p>
-                          <p className="text-[8px] text-green-400">● AI Koç · Çevrimiçi</p>
+                          <p className="text-[8px] text-green-400">● Yapay Zeka Koç · Çevrimiçi</p>
                         </div>
                       </div>
                       {/* Messages */}

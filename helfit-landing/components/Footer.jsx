@@ -5,7 +5,7 @@ export default function Footer() {
     ['Platform', [
       ['#ozellikler', 'Özellikler'],
       ['#nasil-calisir', 'Nasıl Çalışır'],
-      ['#ai-koc', 'AI Koç'],
+      ['#ai-koc', 'Yapay Zeka Koç'],
       ['#mobil', 'Mobil Uygulama'],
       ['#fiyat', 'Fiyatlandırma'],
       ['https://helfit-prod.web.app', 'Kayıt Ol'],

@@ -35,8 +35,8 @@ function Stats() {
         <div className="grid grid-cols-3 gap-6 max-w-2xl mx-auto">
           {[
             ['8+', 'Kapsamlı Özellik'],
-            ['4', 'AI Koç Karakteri'],
-            ['7/24', 'AI Destekli Danışan Desteği'],
+            ['4', 'Yapay Zeka Koç Karakteri'],
+            ['7/24', 'Yapay Zeka Destekli Danışan Desteği'],
           ].map(([v, l], i) => (
             <div key={l} className={`reveal delay-${i + 1} text-center`}>
               <p className="text-3xl font-extrabold text-brand">{v}</p>
@@ -89,7 +89,7 @@ const FEATURE_ITEMS = [
   },
   {
     n: 'brain',
-    t: 'AI Koç (7/24)',
+    t: 'Yapay Zeka Koç (7/24)',
     d: '4 farklı yapay zeka koç karakteri danışanlarının sorularını kişiselleştirilmiş yanıtlarla karşılar.',
     tag: 'Yapay Zeka',
   },
@@ -214,7 +214,7 @@ function AICoach() {
             <span style={{color:BRAND}}>yalnız kalmıyor.</span>
           </h2>
           <p className="mt-4 text-lg max-w-2xl mx-auto" style={{color:'#94a3b8'}}>
-            4 AI koç karakteri danışanın uygulama üzerinden eriştiği —
+            4 yapay zeka koç karakteri danışanın uygulama üzerinden eriştiği —
             diyet planını, hedeflerini ve geçmiş konuşmalarını bilerek 7/24 kişisel destek verir.
             Sen müsait olmadığında bile.
           </p>
@@ -223,7 +223,7 @@ function AICoach() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8 max-w-2xl mx-auto">
             <div className="flex-1 rounded-2xl p-4 text-left" style={{background:'rgba(255,255,255,0.05)',border:'1px solid rgba(255,255,255,0.1)'}}>
               <p className="text-xs font-bold text-white mb-1">💼 Diyetisyen olarak sen</p>
-              <p className="text-xs" style={{color:'#94a3b8'}}>Gece yarısı mesajlarından kurtulursun. Danışan soruları AI koç tarafından karşılanır, sen yalnızca profesyonel müdahale gereken anlarda devreye girersin.</p>
+              <p className="text-xs" style={{color:'#94a3b8'}}>Gece yarısı mesajlarından kurtulursun. Danışan soruları yapay zeka koçu tarafından karşılanır, sen yalnızca profesyonel müdahale gereken anlarda devreye girersin.</p>
             </div>
             <div className="flex-1 rounded-2xl p-4 text-left" style={{background:'rgba(149,184,45,0.08)',border:'1px solid rgba(149,184,45,0.2)'}}>
               <p className="text-xs font-bold mb-1" style={{color:BRAND}}>📱 Danışanın kazandığı</p>
@@ -256,10 +256,10 @@ function AICoach() {
                         <p className="text-xs font-semibold" style={{color:a.color}}>{a.role}</p>
                       </div>
                     </div>
-                    {/* AI chip — en kritik sinyal */}
+                    {/* YZ chip — en kritik sinyal */}
                     <span className="text-[10px] font-extrabold px-2 py-0.5 rounded-lg tracking-wide flex-shrink-0"
                       style={{background:`${a.color}22`,color:a.color,border:`1px solid ${a.color}44`}}>
-                      AI
+                      YZ
                     </span>
                   </div>
                   <p className="text-xs leading-relaxed" style={{color:'#94a3b8'}}>{a.desc}</p>
@@ -304,14 +304,14 @@ function AICoach() {
                 <div>
                   <p className="text-xs font-bold text-white">
                     Melis{' '}
-                    <span className="font-normal" style={{color:'rgba(255,255,255,0.5)'}}>— AI Tarif Koçu</span>
+                    <span className="font-normal" style={{color:'rgba(255,255,255,0.5)'}}>— Yapay Zeka Tarif Koçu</span>
                   </p>
                   <p className="text-xs flex items-center gap-1.5 text-green-400">
                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 pulse inline-block"/>Çevrimiçi
                   </p>
                 </div>
                 <span className="ml-auto text-[10px] font-extrabold px-2 py-0.5 rounded-lg"
-                  style={{background:`${BRAND}22`,color:BRAND,border:`1px solid ${BRAND}44`}}>AI</span>
+                  style={{background:`${BRAND}22`,color:BRAND,border:`1px solid ${BRAND}44`}}>YZ</span>
               </div>
 
               {/* Messages */}
@@ -366,7 +366,7 @@ function MobileApp() {
                     {[
                       {l:'Davet Kodu Gir',c:BRAND,n:'qr'},
                       {l:'Gelişim Takibi',c:BRAND,n:'trend'},
-                      {l:'AI Koçum',c:BRAND,n:'brain'},
+                      {l:'Yapay Zeka Koçum',c:BRAND,n:'brain'},
                       {l:'Randevularım',c:'#F59E0B',n:'calendar'},
                     ].map(item=>(
                       <div key={item.l} className="rounded-2xl p-3 flex flex-col items-center gap-1.5 border border-gray-100" style={{background:`${item.c}0d`}}>
@@ -410,10 +410,10 @@ function MobileApp() {
               Her an, her yerden<br/><span className="text-brand">tam erişim</span>
             </h2>
             <p className="text-lg text-gray-500 leading-relaxed mb-6">
-              Danışanlarınız diyet planlarına, randevularına ve AI koçlarına istedikleri cihazdan her an erişebilir.
+              Danışanlarınız diyet planlarına, randevularına ve yapay zeka koçlarına istedikleri cihazdan her an erişebilir.
             </p>
             <ul className="space-y-3 mb-8 text-left inline-block">
-              {['Diyet planı görüntüleme ve öğün işaretleme','Randevu alma ve geçmiş görüntüleme','Diyetisyenle güvenli mesajlaşma','Kilo ve vücut ölçümü takibi','Gelişim grafiklerini izleme','4 AI koçla 7/24 destek'].map(t=>(
+              {['Diyet planı görüntüleme ve öğün işaretleme','Randevu alma ve geçmiş görüntüleme','Diyetisyenle güvenli mesajlaşma','Kilo ve vücut ölçümü takibi','Gelişim grafiklerini izleme','4 yapay zeka koçuyla 7/24 destek'].map(t=>(
                 <li key={t} className="flex items-center gap-3 text-sm text-gray-700">
                   <span className="w-5 h-5 rounded-full flex items-center justify-center text-white flex-shrink-0" style={{background:BRAND}}><Icon name="check" size={11}/></span>
                   {t}
@@ -456,12 +456,12 @@ function Pricing() {
     {
       name:'Ücretsiz', price:'₺0', sub:'sonsuza kadar', hi:false,
       highlight:'5 Aktif Danışan Limiti',
-      features:['5 Aktif danışan','Diyet planı & interaktif şablon atama','Mesajlaşma ve randevu takvimi','Gelişim takibi grafikleri','AI Koç erişimi (4 karakter)','E-posta desteği'],
+      features:['5 Aktif danışan','Diyet planı & interaktif şablon atama','Mesajlaşma ve randevu takvimi','Gelişim takibi grafikleri','Yapay Zeka Koç erişimi (4 karakter)','E-posta desteği'],
       cta:'Ücretsiz Başla', href:APP,
     },
     {
       name:'Premium', price:'Erken Erişim', sub:'beta sürecinde ücretsiz', hi:true, badge:'⭐ En Popüler',
-      features:['Sınırsız Danışan','Gelişmiş Analitik Raporlama','Derinlemesine Gelişim Grafikleri','Öncelikli Destek','Sınırsız özel süreli davet kodu','AI Koç — tüm karakterler'],
+      features:['Sınırsız Danışan','Gelişmiş Analitik Raporlama','Derinlemesine Gelişim Grafikleri','Öncelikli Destek','Sınırsız özel süreli davet kodu','Yapay Zeka Koç — tüm karakterler'],
       cta:'Erken Erişime Katıl', href:APP,
     },
     {
@@ -511,7 +511,7 @@ function Testimonials() {
   const list = [
     {i:'FŞ',n:'Dyt. Fatma Şahin',t:'Serbest Diyetisyen',c:'İstanbul',q:'Helfit\'i kullanmaya başladığımdan beri danışan takibi için harcadığım süre yarıya indi. Takvim ve şablon özellikleri inanılmaz pratik.'},
     {i:'MK',n:'Dyt. Mehmet Kaya',t:'Klinik Diyetisyeni',c:'Ankara',q:'Davet kodu sistemi çok akıllıca. Danışanlarım kodu girdikten saniyeler sonra bağlandı, WhatsApp karmaşası tamamen bitti.'},
-    {i:'EY',n:'Dyt. Elif Yıldız',t:'Online Diyetisyen',c:'İzmir',q:'AI Koç özelliği danışanlarımın motivasyonunu ciddi artırdı. Hafta sonları bile sorular yanıtlanıyor, ben müdahil olmak zorunda kalmıyorum.'},
+    {i:'EY',n:'Dyt. Elif Yıldız',t:'Online Diyetisyen',c:'İzmir',q:'Yapay Zeka Koç özelliği danışanlarımın motivasyonunu ciddi artırdı. Hafta sonları bile sorular yanıtlanıyor, ben müdahil olmak zorunda kalmıyorum.'},
   ]
   return (
     <section className="py-20 px-6 bg-gray-50">
@@ -571,7 +571,7 @@ export default function Home() {
       <Head>
         <title>Helfit — Diyetisyenler İçin Uçtan Uca Dijital Ofis ve Danışan Yönetim Platformu</title>
         <meta name="description" content="Kağıt-kalem dağınıklığına, karmaşık Excel dosyalarına ve kaybolan WhatsApp mesajlarına son verin. Tüm iş akışınızı tek bir profesyonel panelden yönetin."/>
-        <meta name="keywords" content="diyetisyen yazılımı, danışan yönetim platformu, diyet planı, randevu, AI koç, helfit"/>
+        <meta name="keywords" content="diyetisyen yazılımı, danışan yönetim platformu, diyet planı, randevu, yapay zeka koçu, helfit"/>
         <meta property="og:title" content="Helfit — Diyetisyenler İçin Dijital Ofis Platformu"/>
         <meta property="og:description" content="Kağıt ve WhatsApp karmaşasına son. Tüm iş akışınızı tek platformdan yönetin."/>
         <meta property="og:type" content="website"/>

@@ -4,7 +4,7 @@ import Logo from './Logo'
 const LINKS = [
   ['#ozellikler', 'Özellikler'],
   ['#nasil-calisir', 'Nasıl Çalışır'],
-  ['#ai-koc', 'AI Koç'],
+  ['#ai-koc', 'Yapay Zeka Koç'],
   ['#mobil', 'Mobil'],
   ['#fiyat', 'Fiyatlandırma'],
   ['#sss', 'SSS'],
