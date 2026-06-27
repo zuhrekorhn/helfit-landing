@@ -10,11 +10,12 @@ export default function Footer() {
       ['#fiyat', 'Fiyatlandırma'],
       ['https://helfit-prod.web.app', 'Kayıt Ol'],
     ]],
-    ['Yasal', [
-      ['#', 'Gizlilik Politikası'],
-      ['#', 'KVKK'],
-      ['#', 'Kullanım Koşulları'],
-      ['#', 'Çerez Politikası'],
+    ['Yasal Metinler', [
+      ['/gizlilik-politikasi', 'Gizlilik Politikası'],
+      ['/kvkk-aydinlatma-metni', 'KVKK Aydınlatma Metni'],
+      ['/kullanim-sartlari', 'Kullanım Koşulları'],
+      ['/mesafeli-satis-sozlesmesi', 'Mesafeli Satış Sözleşmesi'],
+      ['/teslimat-iptal-iade-kosullari', 'İade ve İptal Politikası'],
     ]],
     ['İletişim', [
       ['mailto:destek@helfit.com', 'destek@helfit.com'],
