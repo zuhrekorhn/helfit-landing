@@ -576,7 +576,7 @@ export default function Home() {
         <meta property="og:description" content="Kağıt ve WhatsApp karmaşasına son. Tüm iş akışınızı tek platformdan yönetin."/>
         <meta property="og:type" content="website"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link rel="icon" href="/favicon.ico"/>
+        <link rel="icon" type="image/png" href="/favicon.png"/>
       </Head>
 
       <Navbar/>
