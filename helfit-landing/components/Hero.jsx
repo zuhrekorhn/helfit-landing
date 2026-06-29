@@ -17,11 +17,6 @@ export default function Hero() {
           {/* ── Left: Copy ── */}
           <div className="flex-1 text-center lg:text-left max-w-xl mx-auto lg:mx-0">
 
-            <span className="inline-flex items-center gap-2 border text-xs font-semibold px-4 py-1.5 rounded-full mb-7 border-brand/30 text-brand bg-brand/5">
-              <span className="w-1.5 h-1.5 rounded-full bg-brand pulse" />
-              Beta'ya katılın — Ücretsiz
-            </span>
-
             <h1 className="text-4xl md:text-5xl xl:text-[3.25rem] font-extrabold text-gray-900 leading-[1.1] tracking-tight mb-5">
               Diyetisyenin<br />
               <span className="text-brand">Dijital Ofisi,</span><br />
