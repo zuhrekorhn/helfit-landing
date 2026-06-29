@@ -471,9 +471,10 @@ function Pricing() {
       name:'Premium Aylık — Lansmana Özel', price:'999₺', sub:'/ ay', hi:false,
       features:[
         'Sınırsız danışan',
-        'Sınırsız davet kodu',
-        'Özel geçerlilik süreli davet kodu (1-365 gün)',
-        'Ücretsiz plandaki tüm özellikler',
+        'Sınırsız davet kodu (1-365 gün geçerlilik)',
+        'Sınırsız diyet planı şablonu',
+        'Tüm danışan yönetimi özellikleri (mesajlaşma, randevu, gelişim takibi)',
+        '4 Yapay Zeka Koç',
         'Öncelikli destek',
       ],
       cta:'Premium\'a Geç', href:APP,
@@ -481,7 +482,10 @@ function Pricing() {
     {
       name:'Premium Yıllık — Lansmana Özel', price:'9.990₺', sub:'/ yıl · aylık ödemeye göre 2 ay bedava', hi:true, badge:'⭐ En Popüler',
       features:[
-        'Aylık plandaki tüm özellikler',
+        'Sınırsız danışan ve sınırsız davet kodu',
+        'Sınırsız şablon, mesajlaşma, randevu, gelişim takibi',
+        '4 Yapay Zeka Koç',
+        'Öncelikli destek',
         'Yıllık ödemede 2 ay bedava',
       ],
       cta:'Premium\'a Geç', href:APP,
