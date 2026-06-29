@@ -470,7 +470,7 @@ function Pricing() {
       cta:'Ücretsiz Başla', href:APP,
     },
     {
-      name:'Premium Aylık — Lansmana Özel', price:'999₺', sub:'/ ay', hi:false,
+      name:'Premium Aylık — Lansmana Özel', price:'4.999₺', sub:'/ ay', hi:false,
       features:[
         'Sınırsız danışan',
         'Sınırsız diyet planı şablonu oluşturma',
@@ -487,7 +487,7 @@ function Pricing() {
       cta:'Premium\'a Geç', href:APP,
     },
     {
-      name:'Premium Yıllık — Lansmana Özel', price:'9.990₺', sub:'/ yıl · aylık ödemeye göre 2 ay bedava', hi:true, badge:'⭐ En Popüler',
+      name:'Premium Yıllık — Lansmana Özel', price:'54.989₺', sub:'/ yıl · aylık ödemeye göre 1 ay bedava', hi:true, badge:'⭐ En Popüler',
       features:[
         'Sınırsız danışan',
         'Sınırsız diyet planı şablonu oluşturma',
@@ -500,7 +500,7 @@ function Pricing() {
         'Web ve mobil uygulama (iOS & Android)',
         'Özel geçerlilik süreli davet kodu (1-365 gün)',
         'Öncelikli destek',
-        'Yıllık ödemede 2 ay bedava',
+        'Yıllık ödemede 1 ay bedava',
       ],
       cta:'Premium\'a Geç', href:APP,
     },
