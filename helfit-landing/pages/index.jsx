@@ -457,7 +457,7 @@ function Pricing() {
       name:'Ücretsiz — Lansmana Özel', price:'₺0', sub:'sonsuza kadar', hi:false,
       features:[
         '5 aktif danışana kadar',
-        'Sınırsız diyet planı şablonu oluşturma',
+        '5 adet diyet şablonu oluşturma',
         'Danışan profili (anamnez, sağlık geçmişi)',
         'Uygulama içi mesajlaşma ve dosya paylaşımı',
         'Randevu takibi ve otomatik hatırlatma',
