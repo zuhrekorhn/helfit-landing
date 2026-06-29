@@ -454,20 +454,37 @@ function MobileApp() {
 function Pricing() {
   const plans = [
     {
-      name:'Ücretsiz', price:'₺0', sub:'sonsuza kadar', hi:false,
-      highlight:'5 Aktif Danışan Limiti',
-      features:['5 Aktif danışan','Diyet planı & interaktif şablon atama','Mesajlaşma ve randevu takvimi','Gelişim takibi grafikleri','Yapay Zeka Koç erişimi (4 karakter)','E-posta desteği'],
+      name:'Ücretsiz — Lansmana Özel', price:'₺0', sub:'sonsuza kadar', hi:false,
+      features:[
+        '5 aktif danışana kadar',
+        'Sınırsız diyet planı şablonu oluşturma',
+        'Danışan profili (anamnez, sağlık geçmişi)',
+        'Uygulama içi mesajlaşma ve dosya paylaşımı',
+        'Randevu takibi ve otomatik hatırlatma',
+        '7 farklı ölçümle gelişim takibi',
+        '4 Yapay Zeka Koç — Caner, Melis, Ege, Özge',
+        'Web ve mobil uygulama (iOS & Android)',
+      ],
       cta:'Ücretsiz Başla', href:APP,
     },
     {
-      name:'Premium', price:'Erken Erişim', sub:'beta sürecinde ücretsiz', hi:true, badge:'⭐ En Popüler',
-      features:['Sınırsız Danışan','Gelişmiş Analitik Raporlama','Derinlemesine Gelişim Grafikleri','Öncelikli Destek','Sınırsız özel süreli davet kodu','Yapay Zeka Koç — tüm karakterler'],
+      name:'Premium Aylık — Lansmana Özel', price:'999₺', sub:'/ ay', hi:false,
+      features:[
+        'Sınırsız danışan',
+        'Sınırsız davet kodu',
+        'Özel geçerlilik süreli davet kodu (1-365 gün)',
+        'Ücretsiz plandaki tüm özellikler',
+        'Öncelikli destek',
+      ],
       cta:'Erken Erişime Katıl', href:APP,
     },
     {
-      name:'Kurumsal', price:'Özel Fiyat', sub:'klinik ve gruplar', hi:false,
-      features:['Çoklu diyetisyen yönetimi','Ekip dashboard ve raporlama','API erişimi ve entegrasyonlar','7/24 öncelikli destek','Kurumsal faturalama'],
-      cta:'Teklif Al', href:'mailto:destek@helfit.com',
+      name:'Premium Yıllık — Lansmana Özel', price:'9.990₺', sub:'/ yıl · aylık ödemeye göre 2 ay bedava', hi:true, badge:'⭐ En Popüler',
+      features:[
+        'Aylık plandaki tüm özellikler',
+        'Yıllık ödemede 2 ay bedava',
+      ],
+      cta:'Erken Erişime Katıl', href:APP,
     },
   ]
 
