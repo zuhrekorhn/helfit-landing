@@ -476,7 +476,7 @@ function Pricing() {
         'Ücretsiz plandaki tüm özellikler',
         'Öncelikli destek',
       ],
-      cta:'Erken Erişime Katıl', href:APP,
+      cta:'Premium\'a Geç', href:APP,
     },
     {
       name:'Premium Yıllık — Lansmana Özel', price:'9.990₺', sub:'/ yıl · aylık ödemeye göre 2 ay bedava', hi:true, badge:'⭐ En Popüler',
@@ -484,7 +484,7 @@ function Pricing() {
         'Aylık plandaki tüm özellikler',
         'Yıllık ödemede 2 ay bedava',
       ],
-      cta:'Erken Erişime Katıl', href:APP,
+      cta:'Premium\'a Geç', href:APP,
     },
   ]
 

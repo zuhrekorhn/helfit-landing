@@ -11,7 +11,7 @@ const FAQS = [
   { q: 'Diyet planlarını PDF olarak gönderebilir miyim?', a: 'Planlar danışanın uygulamasında canlı olarak görüntüleniyor — bu sayede danışan her zaman güncel plana erişiyor. PDF dışa aktarma özelliği yakında geliyor.' },
   { q: 'Hesabım neden onay bekliyor?', a: 'Platform yalnızca lisanslı diyetisyenlere hizmet verir. Başvurun diploma ve belgelerinle birlikte 1–3 iş günü içinde değerlendirilir.' },
   { q: 'Kredi kartı gerekiyor mu?', a: 'Ücretsiz plan için kesinlikle hayır. Kredi kartı yalnızca ücretli plana geçişte istenir.' },
-  { q: 'Premium\'a geçince ne değişiyor?', a: 'Sınırsız danışan, gelişmiş analitik raporlama, derinlemesine gelişim grafikleri, sınırsız ve özel süreli davet kodları ile öncelikli destek sunulur.' },
+  { q: 'Premium\'a geçince ne değişiyor?', a: 'Sınırsız danışan, sınırsız davet kodu, özel geçerlilik süreli davet kodu (1-365 gün) ve öncelikli destek sunulur.' },
   { q: 'Mevcut verilerimi sisteme aktarabilir miyim?', a: 'Şu an manuel ekleme yöntemi mevcut. CSV ile toplu aktarım özelliği yakında geliyor.' },
 ]
 
